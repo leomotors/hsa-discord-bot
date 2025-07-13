@@ -1,0 +1,10 @@
+# For Local Testing
+
+services:
+  app:
+    container_name: hsa-discord-bot-test
+    build:
+      context: .
+    env_file: .env
+    volumes:
+      - ./data:/app/data:ro
