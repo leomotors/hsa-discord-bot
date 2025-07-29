@@ -47,6 +47,8 @@ async function handleExit(type: string) {
 
   console.log(`Bot is shutting down due to ${type}`);
   await client.destroy();
+
+  process.exit(type.startsWith("SIG") ? 0 : 1);
 }
 
 process.on("SIGINT", () => handleExit("SIGINT"));

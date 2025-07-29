@@ -1,6 +1,6 @@
 {
   "name": "hsa-discord-bot",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
   "description": "Home Server Assistant Discord Bot",
   "type": "module",
@@ -14,17 +14,17 @@
   "devDependencies": {
     "@leomotors/config": "^1.0.1",
     "@trivago/prettier-plugin-sort-imports": "^5.2.2",
-    "@types/node": "^22.16.3",
-    "@typescript-eslint/eslint-plugin": "^8.36.0",
-    "@typescript-eslint/parser": "^8.36.0",
+    "@types/node": "^22.16.5",
+    "@typescript-eslint/eslint-plugin": "^8.38.0",
+    "@typescript-eslint/parser": "^8.38.0",
     "cocoa-discord": "^3.0.0",
     "discord.js": "^14.21.0",
-    "dotenv-cli": "^8.0.0",
-    "eslint": "^9.31.0",
+    "dotenv-cli": "^9.0.0",
+    "eslint": "^9.32.0",
     "prettier": "^3.6.2",
     "tsup": "^8.5.0",
     "typescript": "^5.8.3",
-    "zod": "^4.0.5"
+    "zod": "^4.0.13"
   },
   "packageManager": "pnpm@10.13.1",
   "pnpm": {
